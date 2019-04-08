@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body>
+	
+		<h1>Student Registration form</h1>
+<form action="http://localhost:8089/advjava/registration" method = "post">
+	<table>
+		<tr>
+			<td>Student Id</td>
+			<td><input type = "text" name = "id"/></td>
+		</tr>
+		<tr>
+			<td>Student Name</td>
+			<td><input type = "text" name = "sname"/></td>
+		</tr>
+		<tr>
+			<td>Student Qualification</td>
+			<td>
+				<input type = "checkbox" name = "quali" value = "BSC"/>
+				<input type = "checkbox" name = "quali" value = "MCA"/>
+				<input type = "checkbox" name = "quali" value = "PHD"/>
+			</td>
+		<tr>
+			<td>Student Gender</td>
+			<td>
+				<input type =  "radio" name = "g" />Male<br/>
+				<input type = "radio" name = "g" />Female<br/>
+			</td>
+		</tr>
+		<tr>
+			<td>Brach</td>
+			<td>
+				<select name = "brach">
+					<option value = "Ameerpet">Ameerpet</option>
+					<option value = "Madhapur">Madhapur</option>
+					<option value = "SR Nager">SR Nagar</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Student Area</td>
+			<td><textarea rows = "10" cols = "50" name = "addr"></textarea></td>
+		<tr>
+		<tr>
+			<td><input type = "submit" value = "Register"/></td>
+		</tr>
+	</table>
+ </form>
+ </body>
+ </html>
